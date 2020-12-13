@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HackerEarth Order Summary | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <h1 class="band-name band-name-large">Order Summary</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Stationary</h2>
+            <p id="p2">Item Has been Removed</p>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Books</span>
+                    <img class="shop-item-image" src="book.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Pens</span>
+                    <img class="shop-item-image" src="pen.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">WaterColors</span>
+                    <img class="shop-item-image" src="watercolor.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Pencils</span>
+                    <img class="shop-item-image" src="pencils.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header" >Electronic Gadgets</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Earphones</span>
+                    <img class="shop-item-image" src="airpods.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Mouse </span>
+                    <img class="shop-item-image" src="mouse.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$20.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+                <br>
+                <strong class="cart-total-title">Discount</strong>
+                <span class="cart-total-price">$3</span>
+                <br>
+                <strong class="cart-total-title">Order Total</strong>
+                <span class="cart-total-price1">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" onclick="myFunction()"  type="button">PURCHASE</button>
+        </section>
+    </body>
+</html>
